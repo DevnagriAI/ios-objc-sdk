@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  SampleDevngriObjcSDK
+
+  Created by Vijay Jangid on 25/05/22.
+  
+*/
+"what_is_your_name" = "What is your country name?";
+"my_name_is_vijay" = "My country name is india";
