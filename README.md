@@ -30,7 +30,7 @@ The Apple store will reject your app if it includes simulator binaries. Therefor
       mv "$FRAMEWORK_EXECUTABLE_PATH-merged" "$FRAMEWORK_EXECUTABLE_PATH"
 
 # Compatibility
-We support latest Xcode 13+ and Objective - C. This SDK requires base language as english. Other base language will not supported by this SDK
+We support latest Xcode 13+ and Objective C language. This SDK requires base language as english. Other base languages will not supported by this SDK. Minimum iOS Version supported is 12
 
 # Configuration
 

@@ -20,5 +20,4 @@ xcodebuild archive -scheme DevnagriSdkObjc -destination="iOS" -archivePath /tmp/
 xcodebuild archive -scheme DevnagriSdkObjc -destination="iOS Simulator" -archivePath /tmp/xcf/iossimulator.xcarchive -derivedDataPath /tmp/iphoneos -sdk iphonesimulator SKIP_INSTALL=NO\
 \
 \
-xcodebuild -create-xcframework -framework /tmp/xcf/ios.xcarchive/Products/Library/Frameworks/DevnagriSdkObjc.framework -framework /tmp/xcf/iossimulator.xcarchive/Products/Library/Frameworks/DevnagriSdkObjc.framework -output DevnagriSdkObjc.xcframework\
-}
+xcodebuild -create-xcframework -framework /tmp/xcf/ios.xcarchive/Products/Library/Frameworks/DevnagriSdkObjc.framework -framework /tmp/xcf/iossimulator.xcarchive/Products/Library/Frameworks/DevnagriSdkObjc.framework -output DevnagriSdkObjc.xcframework}

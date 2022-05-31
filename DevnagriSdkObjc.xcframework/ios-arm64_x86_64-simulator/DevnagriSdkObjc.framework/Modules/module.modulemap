@@ -4,3 +4,8 @@ framework module DevnagriSdkObjc {
   export *
   module * { export * }
 }
+
+module DevnagriSdkObjc.Swift {
+    header "DevnagriSdkObjc-Swift.h"
+    requires objc
+}

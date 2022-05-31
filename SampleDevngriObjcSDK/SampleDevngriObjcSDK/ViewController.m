@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Initiaise the SDK
-     [[DevnagriSdk shared] initSdk:@"devnagri_083d95d4b71411eca510021b05a03360" updateStringsTime:10];
+     [[DevnagriSdk shared] initSdk:@"devnagri_083525d4b71411eca510021b26013360" updateStringsTime:10];
     
     // Update locale to hindi
     [[DevnagriSdk shared] updateAppLocale:@"hi"];
